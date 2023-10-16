@@ -1,0 +1,106 @@
+
+*{
+    font-family: 'Roboto', Kanit, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../picture/back_no.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h4{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+    margin-left: 100px;
+}
+
+.home .content p{
+    font-size: 2.5rem;
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color: hsl(33, 98%, 47%);
+
+}
+.content h4{
+    font-size: 3rem;
+    color:#fff;
+    text-shadow: 7px 7px 1.8px hsl(33, 100%, 36%);
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    background-color: hsl(33, 98%, 47%);
+    margin-left: 100px;
+}
+.btn:hover{
+    letter-spacing: .2rem;
+}
+.texthome{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.text2home{
+   color: aliceblue;
+   padding-top: 50px;
+
+}
+.text3home{
+    margin-top: 25px;
+    font-size: 25px;
+    color: wheat;
+}
+#releast{
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 400%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+  }
+  h2{
+      color: aliceblue;
+  }
+
+  h3 {
+    color: hsl(33, 98%, 47%);
+    font-size: large;
+    text-align: justify;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+
+  body {
+    background-color: #0b0d0f;
+
+  }
+  .texthome{
+    font-family: Kanit;
+    
+  }

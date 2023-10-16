@@ -1,0 +1,116 @@
+*{
+   
+        font-family: 'Roboto', Kanit, sans-serif;
+        margin:0; padding:0;
+        box-sizing: border-box;
+        outline: none; border:none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+
+    margin: 0;
+    padding: 0;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../picture/back_contact.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h4{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+    margin-left: 100px;
+    text-shadow: 7px 7px 1.8px hsl(33, 100%, 36%);
+}
+
+.home .content p{
+    font-size: 2.5rem;
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color: hsl(33, 98%, 47%);
+
+}
+.content h4{
+    font-size: 3rem;
+    color:#fff;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+    background-color: hsl(33, 98%, 47%);
+    margin-left: 100px;
+}
+.btn:hover{
+    letter-spacing: .2rem;
+}
+body{
+    background-color: #0b0d0f;
+    font-family: sans-serif;
+}
+.contact-box{
+   width: 500px;
+   background-color: hsl(33, 98%, 47%);;
+   box-shadow: 0 0 20px 0 hsl(33, 98%, 47%);;
+   top: 150%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+    outline: none;
+
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+    color:black;
+}
+.button{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: black;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.imgg {
+    float: right;
+    position: fixed;
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 80%;
+         }
+.imgg img{
+    margin-right: 2000px;
+    
+}
+
